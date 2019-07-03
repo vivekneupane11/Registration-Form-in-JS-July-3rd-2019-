@@ -3,12 +3,6 @@
     padding: 0px;
     font-family: 'Roboto', serif;
     .wrapper {
-        background: #FFEFBA;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FFFFFF, #FFEFBA);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         min-width: 1200px;
         height: 100vh;
         p {
@@ -40,6 +34,12 @@
             box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
             border-radius: 80px;
             height: 60vh;
+            background: #FFEFBA;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             .form-left {
                 top: 20px;
                 padding: 2rem;
